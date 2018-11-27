@@ -1,0 +1,1496 @@
+/*beranda*/
+ 
+ 
+nav {
+    background-color: #000;
+}
+.sample-menu {
+    float:right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.sample-menu li {
+    float: left;
+    
+}
+.sample-menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.sample-menu li a:hover {
+    background-color: #777;
+}
+
+
+
+/*WK*/
+
+nav {
+    background-color: #000;
+}
+.menu {
+    float:right;
+    margin-top: -50px;
+    padding: 0;
+    list-style-type: none;
+}
+.menu li {
+    float: left;
+    
+}
+.menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: #777;
+}
+
+form {
+    width:1230px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:#fff;
+    border:2px solid black;
+    width: 50%;
+
+}
+.button {
+    position:relative;
+    width: 5%;
+    padding:8px 15px;
+    left:-8px;
+    border:2px solid black;
+    background-color:#000;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+
+
+div.blogg{
+
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 40px
+
+}
+
+.WK{ 
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-style: normal;
+}
+
+
+.ice{
+    margin-left: 37px;
+    margin-top: 20px
+
+}
+
+
+.cream{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 900px;
+    margin-top: 49px;
+}
+
+.mie{
+    text-align: left;
+    margin-top: -175px;
+margin-left: 460px;
+
+}
+
+.rama{
+    text-align: left;
+    margin-left: 460px;
+    margin-right: 440px;
+    margin-top: 50px;
+}
+.martabak{
+    text-align: left;
+    margin-top: -150px;
+    margin-left: 900px;
+}
+
+.king{
+    text-align: left;
+    margin-top: 47px;
+    margin-left: 900px;
+    margin-right: 10px;
+}
+
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin-left: 40px;
+  margin-right: -40px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** Hover *****/
+
+.rating > input:checked ~ label, /* warna emas */
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover list */
+
+.rating > input:checked + label:hover, /* hover mengganti rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* memberi warna saat seleksi */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating9 { 
+  border: none;
+  float: left;
+}
+
+.rating9 > input { display: none; } 
+.rating9 > label:before { 
+  
+  margin-left: 320px;
+  margin-right: -320px;
+  
+  margin-top: -5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating9 > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating9 > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating9 > input:checked ~ label, 
+.rating9:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.rating > input:checked + label:hover, 
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.ratingi { 
+  border: none;
+  float: left;
+}
+
+.ratingi > input { display: none; } 
+.ratingi > label:before { 
+  margin-left: 620px;
+  margin-right: -620px;
+  margin-top: -10px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.ratingi > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.ratingi > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.ratingi > input:checked ~ label, 
+.ratingi:not(:checked) > label:hover, 
+.ratingi:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.ratingi > input:checked + label:hover, 
+.ratingi > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { color: #FFED85; }
+
+
+
+
+
+/*sbd*/
+
+body {
+    background: #fff;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    font-size: 14px;
+    font-family: verdana;
+
+}
+nav {
+    background-color: #000;
+}
+.menu {
+    float:right;
+    margin-top: -50px;
+    padding: 0;
+    list-style-type: none;
+}
+.menu li {
+    float: left;
+    
+}
+.menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: #777;
+}
+
+form {
+    width:1230px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:#fff;
+    border:2px solid black;
+    width: 50%;
+
+}
+.button {
+    position:relative;
+    width: 5%;
+    padding:8px 15px;
+    left:-8px;
+    border:2px solid black;
+    background-color:#000;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+
+
+div.blogg{
+
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 40px
+
+}
+
+.SBD{ 
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-style: normal;
+}
+
+
+.tari{
+    margin-left: 37px;
+    margin-top: 20px
+
+}
+.bako{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 900px;
+    margin-top: 49px;
+}
+
+.petik{
+    text-align: left;
+    margin-top: -175px;
+margin-left: 460px;
+
+}
+
+.laut{
+    text-align: left;
+    margin-left: 460px;
+    margin-right: 440px;
+    margin-top: 50px;
+}
+.totaan{
+    text-align: left;
+    margin-top: -12%;
+    margin-left: 910px;
+}
+
+.doro{
+    text-align: left;
+    margin-top: 47px;
+    margin-left: 910px;
+    margin-right: 10px;
+}
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin-left: 40px;
+  margin-right: -40px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** Hover *****/
+
+.rating > input:checked ~ label, /* warna emas */
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover list */
+
+.rating > input:checked + label:hover, /* hover mengganti rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* memberi warna saat seleksi */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.ratingm { 
+  border: none;
+  float: left;
+}
+
+.ratingm > input { display: none; } 
+.ratingm > label:before { 
+  
+  margin-left: 320px;
+  margin-right: -320px;
+  
+  margin-top: -5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.ratingm > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.ratingm > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.ratingm > input:checked ~ label, 
+.ratingm:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.rating > input:checked + label:hover, 
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating2 { 
+  border: none;
+  float: left;
+}
+
+.rating2 > input { display: none; } 
+.rating2 > label:before { 
+  margin-left: 640px;
+  margin-right: -640px;
+  margin-top: -10px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating2 > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating2 > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating2 > input:checked ~ label, 
+.rating2:not(:checked) > label:hover, 
+.rating2:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.rating2 > input:checked + label:hover, 
+.rating2 > input:checked ~ label:hover,
+.rating2 > label:hover ~ input:checked ~ label, 
+.rating2 > input:checked ~ label:hover ~ label { color: #FFED85; }
+
+
+/*hk*/
+
+nav {
+    background-color: #000;
+}
+.sample-menu {
+    float:right;
+    margin-top:-10px;
+    padding: 0;
+    list-style-type: none;
+}
+.sample-menu li {
+    float: left;
+    margin-top: -10px;
+    
+}
+.sample-menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.sample-menu li a:hover {
+    background-color: #777;
+}
+
+
+div.blogg{
+
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 40px
+
+}
+.HK{ 
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-style: normal;
+
+}
+
+/*serch wa*/
+
+nav {
+    background-color: #000;
+}
+.sample-menu {
+    float:right;
+    margin-top:-40px;
+    padding: 0;
+    list-style-type: none;
+}
+.sample-menu li {
+    float: left;
+    margin-top: -10px;
+    
+}
+.sample-menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.sample-menu li a:hover {
+    background-color: #777;
+}
+
+form {
+    width:1230px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:#fff;
+    border:2px solid black;
+    width: 90%;
+
+}
+.button {
+    position:relative;
+    width: 5%;
+    padding:8px 15px;
+    left:-8px;
+    border:2px solid black;
+    background-color:#000;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.WA{ 
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-style: normal;
+}
+
+.j88{
+      margin-left: 37px;
+    margin-top: -10px
+
+}
+
+
+
+.bukit{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 900px;
+    margin-top: 49px;
+ 
+}
+
+
+.papuma{
+    
+  text-align: left;
+    margin-top: -16%;
+margin-left:470px;
+
+
+}
+
+.pantai{
+    text-align: left;
+    margin-left: 470px;
+    margin-right: 440px;
+    margin-top: 50px;
+ 
+}
+.gp{
+   text-align: left;
+    margin-top: -16%;
+    margin-left: 920px;
+
+}
+
+.lg{
+  text-align: left;
+    margin-top:40px;
+    margin-left: 920px;
+    margin-right: 10px;
+  
+}
+
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin-left: 40px;
+  margin-right: -40px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** Hover *****/
+
+.rating > input:checked ~ label, /* warna emas */
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover list */
+
+.rating > input:checked + label:hover, /* hover mengganti rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* memberi warna saat seleksi */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating0 { 
+  border: none;
+  float: left;
+}
+
+.rating0 > input { display: none; } 
+.rating0 > label:before { 
+  
+  margin-left: 330px;
+  margin-right: -330px;
+  
+  margin-top: -5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating0 > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating0 > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating0 > input:checked ~ label, 
+.rating0:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.rating > input:checked + label:hover, 
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating2 { 
+  border: none;
+  float: left;
+}
+
+.rating2 > input { display: none; } 
+.rating2 > label:before { 
+  margin-left: 640px;
+  margin-right: -640px;
+  margin-top: -10px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating2 > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating2 > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating2 > input:checked ~ label, 
+.rating2:not(:checked) > label:hover, 
+.rating2:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.rating2 > input:checked + label:hover, 
+.rating2 > input:checked ~ label:hover,
+.rating2 > label:hover ~ input:checked ~ label, 
+.rating2 > input:checked ~ label:hover ~ label { color: #FFED85; }
+
+/*serch wk*/
+
+nav {
+    background-color: #000;
+}
+.sample-menu {
+    float:right;
+    margin-top:-40px;
+    padding: 0;
+    list-style-type: none;
+}
+.sample-menu li {
+    float: left;
+    margin-top: -10px;
+    
+}
+.sample-menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.sample-menu li a:hover {
+    background-color: #777;
+}
+
+form {
+    width:1230px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:#fff;
+    border:2px solid black;
+    width: 90%;
+
+}
+.button {
+    position:relative;
+    width: 5%;
+    padding:8px 15px;
+    left:-8px;
+    border:2px solid black;
+    background-color:#000;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.WK{ 
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-style: normal;
+}
+.pecel{
+    text-align: left;
+    margin-top: 260px;
+margin-left: 40px;
+
+}
+
+.lum{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 890px;
+    margin-top: 49px;
+}
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin-left: 40px;
+  margin-right: -40px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** Hover *****/
+
+.rating > input:checked ~ label, /* warna emas */
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover list */
+
+.rating > input:checked + label:hover, /* hover mengganti rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* memberi warna saat seleksi */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+/*serch sbd*/
+
+nav {
+    background-color: #000;
+}
+.sample-menu {
+    float:right;
+    margin-top:-40px;
+    padding: 0;
+    list-style-type: none;
+}
+.sample-menu li {
+    float: left;
+    margin-top: -10px;
+    
+}
+.sample-menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.sample-menu li a:hover {
+    background-color: #777;
+}
+
+form {
+    width:1230px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:#fff;
+    border:2px solid black;
+    width: 90%;
+
+}
+.button {
+    position:relative;
+    width: 5%;
+    padding:8px 15px;
+    left:-8px;
+    border:2px solid black;
+    background-color:#000;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.SBD{ 
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-style: normal;
+}
+.j{
+    text-align: left;
+    margin-top: 260px;
+margin-left: 40px;
+color: black;
+
+}
+
+.fc{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 890px;
+    margin-top: 49px;
+}
+
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin-left: 40px;
+  margin-right: -40px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** Hover *****/
+
+.rating > input:checked ~ label, /* warna emas */
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover list */
+
+.rating > input:checked + label:hover, /* hover mengganti rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* memberi warna saat seleksi */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
+/*WA*/
+
+nav {
+    background-color: #000;
+}
+.sample-menu {
+    float:right;
+    margin-top:-40px;
+    padding: 0;
+    list-style-type: none;
+}
+.sample-menu li {
+    float: left;
+    margin-top: -10px;
+    
+}
+.sample-menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.sample-menu li a:hover {
+    background-color: #777;
+}
+
+form {
+    width:1230px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:#fff;
+    border:2px solid black;
+    width: 90%;
+
+}
+.button {
+    position:relative;
+    width: 5%;
+    padding:8px 15px;
+    left:-8px;
+    border:2px solid black;
+    background-color:#000;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.WA{ 
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-style: normal;
+}
+
+.j88{
+      margin-left: 37px;
+    margin-top: -10px
+
+}
+
+
+
+.bukit{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 900px;
+    margin-top: 49px;
+ 
+}
+
+
+.papuma{
+    
+  text-align: left;
+    margin-top: -175px;
+margin-left:470px;
+
+
+}
+
+.pantai{
+    text-align: left;
+    margin-left: 470px;
+    margin-right: 440px;
+    margin-top: 50px;
+ 
+
+}
+.gp{
+   text-align: left;
+    margin-top: -175px;
+    margin-left: 920px;
+
+}
+
+.lg{
+  text-align: left;
+    margin-top:40px;
+    margin-left: 920px;
+    margin-right: 10px;
+  
+}
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin-left: 40px;
+  margin-right: -40px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** Hover *****/
+
+.rating > input:checked ~ label, /* warna emas */
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover list */
+
+.rating > input:checked + label:hover, /* hover mengganti rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* memberi warna saat seleksi */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating0 { 
+  border: none;
+  float: left;
+}
+
+.rating0 > input { display: none; } 
+.rating0 > label:before { 
+  
+  margin-left: 330px;
+  margin-right: -330px;
+  
+  margin-top: -5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating0 > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating0 > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating0 > input:checked ~ label, 
+.rating0:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.rating > input:checked + label:hover, 
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating2 { 
+  border: none;
+  float: left;
+}
+
+.rating2 > input { display: none; } 
+.rating2 > label:before { 
+  margin-left: 640px;
+  margin-right: -640px;
+  margin-top: -10px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating2 > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating2 > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating2 > input:checked ~ label, 
+.rating2:not(:checked) > label:hover, 
+.rating2:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.rating2 > input:checked + label:hover, 
+.rating2 > input:checked ~ label:hover,
+.rating2 > label:hover ~ input:checked ~ label, 
+.rating2 > input:checked ~ label:hover ~ label { color: #FFED85; }
+
+ 
+/* deskripsi */
+ 
+
+form {
+    width:1230px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:#fff;
+    border:2px solid black;
+    width: 90%;
+
+}
+.button {
+    position:relative;
+    width: 5%;
+    padding:8px 15px;
+    left:-8px;
+    border:2px solid black;
+    background-color:#000;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.WA{ 
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-style: normal;
+}
+nav {
+    background-color: #000;
+}
+.menu2 {
+    float:left;
+    margin-top:20px;
+    padding: 0;
+    list-style-type: none;
+}
+.menu2 li {
+    float: left;
+    margin-top: -10px;
+    
+}
+.menu2 li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.menu2 li a:hover {
+    background-color: #777;
+}
+
+.pay{
+    
+  text-align: left;
+    margin-top: 16px;
+margin-left:420px;
+
+
+}
+.pant{
+    text-align: justify-all;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 70px;
+}
+ 
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+.rating1 { 
+  border: none;
+  float: left;
+}
+
+.rating1 > input { display: none; } 
+.rating1 > label:before { 
+  margin-left: 500px;
+  margin-right: -500px;
+  margin-top: -5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating1 > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating1 > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating1 > input:checked ~ label, 
+.rating1:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.rating > input:checked + label:hover, 
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+/* Akomodasi */
+
+nav {
+    background-color: #000;
+}
+.sample-menu {
+    float:right;
+    margin-top:-25px;
+    padding: 0;
+    list-style-type: none;
+}
+.sample-menu li {
+    float: left;
+    margin-top: -25px;
+    
+}
+.sample-menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.sample-menu li a:hover {
+    background-color: #777;
+}
+
+
+div.blogg{
+
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 40px
+
+}
+.A{ 
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-style: normal;
+}
+
+
+/*review*/
+
+body {
+    font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+#ulasan textarea {
+    border: 2px solid rgba(0,0,0,0.1);
+    outline: 0;
+}
+
+#ulasan textarea {
+    width: 98%;
+    
+}
+
+#ulasan input[type="submit"] {
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #efefef, #ddd);
+    background: -moz-linear-gradient(top, #efefef, #ddd);
+    background: -ms-linear-gradient(top, #efefef, #ddd);
+    background: -o-linear-gradient(top, #efefef, #ddd);
+    background: linear-gradient(top, #efefef, #ddd);
+    color: #333;
+    text-shadow: 0px 1px 1px rgba(255,255,255,1);
+    border: 1px solid #ccc;
+}
+
+#ulasan input[type="submit"]:hover {
+    background: -webkit-linear-gradient(top, #eee, #ccc);
+    background: -moz-linear-gradient(top, #eee, #ccc);
+    background: -ms-linear-gradient(top, #eee, #ccc);
+    background: -o-linear-gradient(top, #eee, #ccc);
+    background: linear-gradient(top, #eee, #ccc);
+    border: 1px solid #bbb;
+}
+
+#ulasan input[type="submit"]:active {
+    background: -webkit-linear-gradient(top, #ddd, #aaa);
+    background: -moz-linear-gradient(top, #ddd, #aaa);
+    background: -ms-linear-gradient(top, #ddd, #aaa);
+    background: -o-linear-gradient(top, #ddd, #aaa);
+    background: linear-gradient(top, #ddd, #aaa);    
+    border: 1px solid #999;
+}
+
+#ulasan div {
+    margin-bottom: 8px;
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.nama{
+    
+    margin-top: -50px;
+margin-left: 60px;
+}
+
+.waktu{
+    margin-top: -10px;
+margin-left: 60px;
+
+}
+
+.isi{
+    margin-top: -10px;
+    margin-left: 60px;
+}
